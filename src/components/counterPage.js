@@ -8,6 +8,7 @@ const DECREMENT_COUNT = 'decrement'
 const SET_VALUE_TO_ADD = 'change_value_to_add'
 const ADD_VALUE_TO_COUNT = 'add_value_to_count'
 
+
 const reducer = (state, action) => {
     switch(action.type){
         case INCREMENT_COUNT:
